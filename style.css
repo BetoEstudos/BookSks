@@ -31,14 +31,21 @@ header {
 }
 
 .logo h1 {
-    color: #3c4d91;
+    background-image: linear-gradient(30deg, #001f65, #6895fd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    font-family: 'The Seasons';
     font-size: 20px;
 }
 
-.logo h1 span {
-    font-weight: bold;
-    color: #2349d1;
+#booksys{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 5px;
 }
+
 
 nav ul {
     list-style: none;
@@ -107,14 +114,13 @@ main {
 .texto h2 {
     display: flex;
     justify-content: center;
-    color: #111;
+    background-image: linear-gradient(45deg, #000, #3533cd);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
     font-size: 50px;
 }
 
-.texto h2 span {
-    color: #2349d1;
-    margin-right: 10px;
-}
 
 .botoes {
     display: flex;
@@ -168,4 +174,3 @@ footer {
     border-top-left-radius: 60% 40%;
     border-top-right-radius: 60% 40%;
 }
-
