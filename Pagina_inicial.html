@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookSys</title>
+  <link rel="stylesheet" href="pagin_inicial.css">
+</head>
+<body>
+  <!-- MENU LATERAL -->
+  <aside id="menu">
+    <div class="logo">
+      <h2>📘 BookSys</h2>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" id="homeBtn">🏠 Início</a></li>
+        <li><a href="#" id="booksBtn">📚 Livros</a></li>
+        <li><a href="#" id="addBtn">➕ Adicionar Livro</a></li>
+      </ul>
+    </nav>
+    <div class="user">
+      <p>👤 Nome_Usuario</p>
+    </div>
+  </aside>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main id="content">
+    <header>
+      <input type="text" id="searchInput" placeholder="Busque por um livro">
+    </header>
+
+    <h1>Livros Disponíveis</h1>
+
+    <div id="bookList" class="book-grid">
+      <!-- Livros serão inseridos dinamicamente -->
+    </div>
+  </main>
+
+  <!-- DETALHES DO LIVRO -->
+  <section id="bookDetail" class="hidden">
+    <button id="closeDetail">⬅ Voltar</button>
+    <div class="book-info">
+      <img id="detailImage" src="" alt="Capa do livro">
+      <div class="book-text">
+        <h2 id="detailTitle"></h2>
+        <p><strong>Quantidade:</strong> <span id="detailQty"></span></p>
+        <p><strong>Categoria:</strong> <span id="detailCat"></span></p>
+        <p><strong>Descrição:</strong></p>
+        <p id="detailDesc"></p>
+      </div>
+    </div>
+  </section>
+
+  <script src="pagina_inicial.js"></script>
+</body>
+</html>
