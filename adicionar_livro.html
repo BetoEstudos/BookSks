@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BookSys - Adicionar Livro</title>
+  <link rel="stylesheet" href="adicionar_livro.css">
+</head>
+
+<body>
+  <!-- MENU LATERAL -->
+  <aside id="menu">
+    <div class="logo">
+      <img id="ima_logo" src="Imagens/BookSys-1-removebg-preview.png" alt="BookSys Logo">
+    </div>
+
+    <nav>
+      <ul>
+        <li><a href="#">🏠 Início</a></li>
+        <li><a href="#">📚 Livros</a></li>
+        <li><a href="#">📄 Histórico do Usuário</a></li>
+        <li><a href="#" class="active">➕ Adicionar Livro</a></li>
+        <li><a href="#">🙍‍♂ Adicionar Funcionário</a></li>
+      </ul>
+    </nav>
+
+    <div class="user">
+      <p>👤 Nome_Usuario</p>
+    </div>
+  </aside>
+
+  <!-- CONTEÚDO PRINCIPAL -->
+  <main id="content">
+    <h1 class="title">Adicionar Livro</h1>
+
+    <div class="add-container">
+
+      <!-- ÁREA DE CAPA -->
+      <div class="cover-box">
+        <div class="cover-icon">📷</div>
+        <p>Foto da capa do livro</p>
+      </div>
+
+      <!-- FORMULÁRIO -->
+      <div class="book-form">
+
+        <label>Título:</label>
+        <input type="text" placeholder="Digite o título do livro">
+
+        <label>Quantidade:</label>
+        <input type="number" placeholder="Ex: 10">
+
+        <label>Categoria:</label>
+        <input type="text" placeholder="Ex: Romance / Fantasia / Técnico">
+
+        <label>Descrição:</label>
+        <textarea rows="10" placeholder="Digite a descrição do livro..."></textarea>
+
+        <label>Arquivo do livro:</label>
+        <input type="file">
+
+        <button class="add">Adicionar</button>
+      </div>
+
+    </div>
+  </main>
+
+</body>
+</html>
