@@ -111,13 +111,26 @@ nav a.Home {
     color: #69d1ff;
 }
 /* Lado direito - login */
-.login-section {
+.login-section{
     background: linear-gradient(to top right, #6794ff, #a1e6ff);
     padding: 40px;
     border-radius: 20px;
-    width: 350px;
+    width: 25vw;
+    height: 45vh;
     text-align: center;
     color: #2a63c3;
+}
+.login-section h1{
+    margin-bottom: 20px;
+    font-size: 32px;
+}
+#Bem{
+    padding-bottom:12px ;
+    color: #5b85e8;
+}
+#Book{
+    padding-bottom:20px ;
+    color: #8bd2fb;
 }
 #esqueci{
     display: flex;
@@ -171,4 +184,7 @@ nav a.Home {
 }
 .login-section button:hover {
     background-color: #345bd0;
+}
+#entrar{
+    margin-top: 30px;
 }
