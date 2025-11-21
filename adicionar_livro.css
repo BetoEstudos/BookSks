@@ -92,7 +92,7 @@ nav ul li a.active {
 /* === CAPA === */
 .cover-box {
   width: 300px;
-  height: 420px;
+  height: 600px;
   border: 2px dashed #9cc9ff;
   border-radius: 12px;
   display: flex;
