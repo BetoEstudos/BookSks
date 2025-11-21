@@ -12,7 +12,7 @@ body {
   overflow: hidden;
 }
 
-
+/* === MENU LATERAL (mesmo do Editar Livro) === */
 #menu {
   width: 250px;
   background: #ffffff;
@@ -29,13 +29,6 @@ body {
 
 #ima_logo {
   width: 150px;
-}
-
-#booksys h1 {
-  line-height: 1;
-  font-size: 26px;
-  color: #004a97;
-  font-weight: bold;
 }
 
 nav ul {
@@ -56,7 +49,8 @@ nav ul li a {
   transition: 0.2s;
 }
 
-nav ul li a:hover {
+nav ul li a:hover,
+nav ul li a.active {
   background: #e8f2ff;
   border-radius: 8px;
 }
@@ -69,7 +63,7 @@ nav ul li a:hover {
   color: #333;
 }
 
-
+/* === CONTEÚDO PRINCIPAL === */
 #content {
   flex: 1;
   padding: 40px;
@@ -82,8 +76,8 @@ nav ul li a:hover {
   margin-bottom: 25px;
 }
 
-
-.edit-container {
+/* === CAIXA CENTRAL (igual Editar Livro) === */
+.add-container {
   background: white;
   padding: 30px;
   border-radius: 20px;
@@ -95,15 +89,36 @@ nav ul li a:hover {
   box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.15);
 }
 
-
-.book-image img {
-  width: 300px; 
-  border-radius: 10px;
-  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
-  object-fit: contain; 
+/* === CAPA === */
+.cover-box {
+  width: 300px;
+  height: 420px;
+  border: 2px dashed #9cc9ff;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #004a97;
+  text-align: center;
+  gap: 12px;
+  padding: 15px;
 }
 
+.cover-icon {
+  font-size: 60px;
+}
 
+.cover-box p {
+  font-size: 15px;
+  color: #003f7d;
+}
+
+.file-input {
+  margin-top: 10px;
+}
+
+/* === FORMULÁRIO === */
 .book-form {
   flex: 1;
   display: flex;
@@ -135,15 +150,11 @@ nav ul li a:hover {
   background: #ffffff;
 }
 
-
-.buttons {
+/* === BOTÃO ADICIONAR === */
+.add {
   margin-top: 20px;
-  display: flex;
-  gap: 20px;
-}
-
-button {
   padding: 12px 25px;
+  background: #4da3ff;
   border: none;
   border-radius: 12px;
   cursor: pointer;
@@ -153,10 +164,6 @@ button {
   transition: 0.2s;
 }
 
-.edit {
-  background: #4da3ff;
-}
-
-.edit:hover {
-  background: #1c82f5;
+.add:hover {
+  background: #1c82f5;
 }
