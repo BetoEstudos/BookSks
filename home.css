@@ -51,7 +51,7 @@ a:active{
 }
 nav a.Home {
     border-bottom: 2px solid #2349d1;
-    padding-bottom: 3px; 
+    padding-bottom: 2px; 
     font-weight: 500;
 }
 /* ======= CONTEÚDO PRINCIPAL ======= */
@@ -72,7 +72,7 @@ main {
 .texto {
     background-color: #eaf4ff;
     border-radius: 20px;
-    width: 30vw;
+    width: 35vw;
     height: 70vh;
     padding: 30px;
     box-shadow: 6px 6px 0px rgba(0,0,0,0.2);
@@ -84,22 +84,10 @@ main {
     color: #333;
     display: flex;
     justify-content: center;
-    font-size: 28px;
+    font-size: 25px;
     margin-top: 35px;
-    margin-bottom: 50px;
+    margin-bottom: 15px;
 }
-.paragrafos{
-    margin-top: 15px;
-    text-align: justify;
-    line-height: 1.5;
-    color: #333;
-    display: flex;
-    justify-content: center;
-    font-size: 28px;
-    margin-top: 15px;
-    margin-bottom: 50px;
-}
-
 .texto h2 {
     display: flex;
     justify-content: center;
