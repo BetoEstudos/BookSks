@@ -76,10 +76,19 @@ nav a.Home {
     font-size: 17px;
     transition: 0.3s;
 }
-.navbar nav a:hover,
-.navbar nav a.active {
-    color: #002aff;
-    border-bottom: 2px solid #4a70e0;
+nav a:hover{
+    font-size: 19px;
+    border-bottom: 2px solid #8fa8e8;
+    font-weight: 500;
+}
+a:active{
+    transform: scale(1.0);
+    color: #8fa8e8;  
+}
+nav a.Pagina_local {
+    border-bottom: 2px solid #2349d1;
+    padding-bottom: 2px; 
+    font-weight: 500;
 }
 /* ======= Main Content ======= */
 .container {
@@ -100,7 +109,7 @@ nav a.Home {
     letter-spacing: -3px;
 }
 .logo-box img{
-    width: 700px;
+    width: 35vh;
 }
 .logo-section h3 {
     color: #4a70e0;
@@ -115,9 +124,20 @@ nav a.Home {
     background: linear-gradient(to top right, #6794ff, #a1e6ff);
     padding: 40px;
     border-radius: 20px;
-    width: 350px;
+    width: 25vw;
+    height: 50vh;
     text-align: center;
     color: #2a63c3;
+}
+.login-section h1{
+    font-size: 20px;
+    font-weight: 100;
+}
+#Bem{
+    color: #5b85e8;
+}
+#Book{
+    color: #8bd2fb;
 }
 #esqueci{
     display: flex;
@@ -171,4 +191,7 @@ nav a.Home {
 }
 .login-section button:hover {
     background-color: #345bd0;
+}
+#entrar{
+    margin-bottom: 30px;
 }

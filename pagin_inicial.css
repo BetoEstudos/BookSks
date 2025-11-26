@@ -12,7 +12,7 @@ body {
   color: #222;
 }
 
-/* MENU */
+
 aside {
   width: 230px;
   background: white;
@@ -102,7 +102,7 @@ nav ul li a {
   color: #555;
 }
 
-/* CONTEÚDO PRINCIPAL */
+
 main {
   flex: 1;
   padding: 30px;
@@ -157,7 +157,7 @@ h1 {
   font-weight: bold;
 }
 
-/* DETALHES */
+
 #bookDetail {
   position: fixed;
   top: 0;
