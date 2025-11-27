@@ -190,9 +190,15 @@ nav a.Pagina_local {
     margin-top: 10px;
     transition: 0.3s;
 }
-.login-section button:hover {
-    background-color: #345bd0;
+.btn {
+  display: inline-block;
+  padding: 15px 70px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 25px;
+  font-size: 16px;
 }
-#entrar{
-    margin-bottom: 30px;
+.btn:hover {
+  background-color: #0056b3;
 }
