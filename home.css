@@ -71,9 +71,9 @@ main {
 
 .texto {
     background-color: #eaf4ff;
-    border-radius: 30px;
-    width: 45vw;
-    height: 70vh;
+    border-radius: 20px;
+    width: 35vw;
+    height: 50vh;
     padding: 30px;
     box-shadow: 6px 6px 0px rgba(0,0,0,0.2);
 }
